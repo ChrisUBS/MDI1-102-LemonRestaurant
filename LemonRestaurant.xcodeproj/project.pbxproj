@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		83C6E4402E42EABA00E21AE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83C6E42A2E42EAB900E21AE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83C6E4312E42EAB900E21AE2;
+			remoteInfo = LemonRestaurant;
+		};
+		83C6E44A2E42EABA00E21AE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83C6E42A2E42EAB900E21AE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83C6E4312E42EAB900E21AE2;
+			remoteInfo = LemonRestaurant;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83C6E4322E42EAB900E21AE2 /* LemonRestaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LemonRestaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C6E43F2E42EABA00E21AE2 /* LemonRestaurantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LemonRestaurantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C6E4492E42EABA00E21AE2 /* LemonRestaurantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LemonRestaurantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		83C6E4342E42EAB900E21AE2 /* LemonRestaurant */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LemonRestaurant;
+			sourceTree = "<group>";
+		};
+		83C6E4422E42EABA00E21AE2 /* LemonRestaurantTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LemonRestaurantTests;
+			sourceTree = "<group>";
+		};
+		83C6E44C2E42EABA00E21AE2 /* LemonRestaurantUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LemonRestaurantUITests;
+			sourceTree = "<group>";
+		};
+		83EE73212E4581E000B5EC59 /* Practice */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Practice;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83C6E42F2E42EAB900E21AE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C6E43C2E42EABA00E21AE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C6E4462E42EABA00E21AE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83C6E4292E42EAB900E21AE2 = {
+			isa = PBXGroup;
+			children = (
+				83EE73212E4581E000B5EC59 /* Practice */,
+				83C6E4342E42EAB900E21AE2 /* LemonRestaurant */,
+				83C6E4422E42EABA00E21AE2 /* LemonRestaurantTests */,
+				83C6E44C2E42EABA00E21AE2 /* LemonRestaurantUITests */,
+				83C6E4332E42EAB900E21AE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83C6E4332E42EAB900E21AE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83C6E4322E42EAB900E21AE2 /* LemonRestaurant.app */,
+				83C6E43F2E42EABA00E21AE2 /* LemonRestaurantTests.xctest */,
+				83C6E4492E42EABA00E21AE2 /* LemonRestaurantUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83C6E4312E42EAB900E21AE2 /* LemonRestaurant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83C6E4532E42EABA00E21AE2 /* Build configuration list for PBXNativeTarget "LemonRestaurant" */;
+			buildPhases = (
+				83C6E42E2E42EAB900E21AE2 /* Sources */,
+				83C6E42F2E42EAB900E21AE2 /* Frameworks */,
+				83C6E4302E42EAB900E21AE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				83C6E4342E42EAB900E21AE2 /* LemonRestaurant */,
+				83EE73212E4581E000B5EC59 /* Practice */,
+			);
+			name = LemonRestaurant;
+			packageProductDependencies = (
+			);
+			productName = LemonRestaurant;
+			productReference = 83C6E4322E42EAB900E21AE2 /* LemonRestaurant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83C6E43E2E42EABA00E21AE2 /* LemonRestaurantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83C6E4562E42EABA00E21AE2 /* Build configuration list for PBXNativeTarget "LemonRestaurantTests" */;
+			buildPhases = (
+				83C6E43B2E42EABA00E21AE2 /* Sources */,
+				83C6E43C2E42EABA00E21AE2 /* Frameworks */,
+				83C6E43D2E42EABA00E21AE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83C6E4412E42EABA00E21AE2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				83C6E4422E42EABA00E21AE2 /* LemonRestaurantTests */,
+			);
+			name = LemonRestaurantTests;
+			packageProductDependencies = (
+			);
+			productName = LemonRestaurantTests;
+			productReference = 83C6E43F2E42EABA00E21AE2 /* LemonRestaurantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83C6E4482E42EABA00E21AE2 /* LemonRestaurantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83C6E4592E42EABA00E21AE2 /* Build configuration list for PBXNativeTarget "LemonRestaurantUITests" */;
+			buildPhases = (
+				83C6E4452E42EABA00E21AE2 /* Sources */,
+				83C6E4462E42EABA00E21AE2 /* Frameworks */,
+				83C6E4472E42EABA00E21AE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83C6E44B2E42EABA00E21AE2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				83C6E44C2E42EABA00E21AE2 /* LemonRestaurantUITests */,
+			);
+			name = LemonRestaurantUITests;
+			packageProductDependencies = (
+			);
+			productName = LemonRestaurantUITests;
+			productReference = 83C6E4492E42EABA00E21AE2 /* LemonRestaurantUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83C6E42A2E42EAB900E21AE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					83C6E4312E42EAB900E21AE2 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					83C6E43E2E42EABA00E21AE2 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 83C6E4312E42EAB900E21AE2;
+					};
+					83C6E4482E42EABA00E21AE2 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 83C6E4312E42EAB900E21AE2;
+					};
+				};
+			};
+			buildConfigurationList = 83C6E42D2E42EAB900E21AE2 /* Build configuration list for PBXProject "LemonRestaurant" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83C6E4292E42EAB900E21AE2;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 83C6E4332E42EAB900E21AE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83C6E4312E42EAB900E21AE2 /* LemonRestaurant */,
+				83C6E43E2E42EABA00E21AE2 /* LemonRestaurantTests */,
+				83C6E4482E42EABA00E21AE2 /* LemonRestaurantUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83C6E4302E42EAB900E21AE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C6E43D2E42EABA00E21AE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C6E4472E42EABA00E21AE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83C6E42E2E42EAB900E21AE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C6E43B2E42EABA00E21AE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C6E4452E42EABA00E21AE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83C6E4412E42EABA00E21AE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83C6E4312E42EAB900E21AE2 /* LemonRestaurant */;
+			targetProxy = 83C6E4402E42EABA00E21AE2 /* PBXContainerItemProxy */;
+		};
+		83C6E44B2E42EABA00E21AE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83C6E4312E42EAB900E21AE2 /* LemonRestaurant */;
+			targetProxy = 83C6E44A2E42EABA00E21AE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		83C6E4512E42EABA00E21AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83C6E4522E42EABA00E21AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83C6E4542E42EABA00E21AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chris.LemonRestaurant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83C6E4552E42EABA00E21AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chris.LemonRestaurant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		83C6E4572E42EABA00E21AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chris.LemonRestaurantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LemonRestaurant.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LemonRestaurant";
+			};
+			name = Debug;
+		};
+		83C6E4582E42EABA00E21AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chris.LemonRestaurantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LemonRestaurant.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LemonRestaurant";
+			};
+			name = Release;
+		};
+		83C6E45A2E42EABA00E21AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chris.LemonRestaurantUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LemonRestaurant;
+			};
+			name = Debug;
+		};
+		83C6E45B2E42EABA00E21AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chris.LemonRestaurantUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LemonRestaurant;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83C6E42D2E42EAB900E21AE2 /* Build configuration list for PBXProject "LemonRestaurant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C6E4512E42EABA00E21AE2 /* Debug */,
+				83C6E4522E42EABA00E21AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83C6E4532E42EABA00E21AE2 /* Build configuration list for PBXNativeTarget "LemonRestaurant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C6E4542E42EABA00E21AE2 /* Debug */,
+				83C6E4552E42EABA00E21AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83C6E4562E42EABA00E21AE2 /* Build configuration list for PBXNativeTarget "LemonRestaurantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C6E4572E42EABA00E21AE2 /* Debug */,
+				83C6E4582E42EABA00E21AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83C6E4592E42EABA00E21AE2 /* Build configuration list for PBXNativeTarget "LemonRestaurantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C6E45A2E42EABA00E21AE2 /* Debug */,
+				83C6E45B2E42EABA00E21AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83C6E42A2E42EAB900E21AE2 /* Project object */;
+}
