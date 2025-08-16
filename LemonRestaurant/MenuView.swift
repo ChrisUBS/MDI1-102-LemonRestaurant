@@ -9,17 +9,55 @@ import SwiftUI
 
 struct MenuView: View {
     
-    let menuItems: [String : Double] = [
-        "Pizza" : 9.99,
-        "Past" : 10.50,
-        "Salad" : 6.00,
-        "Soup" : 4.75,
-        "Steak" : 14.99,
-        "Chocolate Cake" : 5.75
-    ]
+    //    let menuItems: [String : Double] = [
+    //        "Pizza" : 9.99,
+    //        "Past" : 10.50,
+    //        "Salad" : 6.00,
+    //        "Soup" : 4.75,
+    //        "Steak" : 14.99,
+    //        "Chocolate Cake" : 5.75
+    //    ]
     
-    @State private var showMessage = false
-    @State private var showThankYouMessage = false
+    @State private var showMessage:Bool = false
+    @State private var showThankYouMessage:Bool = false
+    
+    let menuItems = [
+        MenuItem(
+            name: "Pizza",
+            description: "Cheesy and hot",
+            price: 9.0
+        ),
+        MenuItem(
+            name: "Steak",
+            description: "Grilled to perfection",
+            price: 8.0
+        ),
+        MenuItem(
+            name: "Past",
+            description: "Spaghetti",
+            price: 8.0
+        ),
+        MenuItem(
+            name: "Caesar Salad",
+            description: "Romaine lettuce with creamy Caesar dressing",
+            price: 10.99
+        ),
+        MenuItem(
+            name: "Burger",
+            description: "Spicy chicken",
+            price: 6.99
+        ),
+        MenuItem(
+            name: "Tacos",
+            description: "3 adobada tacos",
+            price: 9.99
+        ),
+        MenuItem(
+            name: "Hot Dog",
+            description: "Long sausage",
+            price: 4.99
+        )
+    ]
     
     var body: some View {
         VStack{
@@ -55,51 +93,55 @@ struct MenuView: View {
                 }
             }
             
-            List {
-                Text("We currently offer \(menuItems.count) menu items")
-                    .italic()
-                    .frame(maxWidth: .infinity, alignment: .center)
-                
-                ForEach(menuItems.sorted(by: {$0.key > $1.key}), id: \.key){(name, price) in
-                    HStack{
-                        VStack(alignment: .leading){
-                            Text(name)
-                                .font(.headline)
-                            
-                            Text("$ \(price, specifier: "%.2f")")
-                                .foregroundColor(.secondary)
-                        }
-                        
-                        Spacer()
-                        
-                        if price < 7.0 {
-                            Text("Value")
-                                .font(.caption.weight(.semibold))
-                                .padding(.horizontal, 10)
-                                .padding(.vertical, 4)
-                                .background(
-                                    Capsule().fill(Color.green.opacity(0.15))
-                                )
-                                .foregroundColor(.green)
-                                .overlay(
-                                    Capsule().stroke(Color.green, lineWidth: 1)
-                                )
-                        } else {
-                            Text("Premium")
-                                .font(.caption.weight(.semibold))
-                                .padding(.horizontal, 10)
-                                .padding(.vertical, 4)
-                                .background(
-                                    Capsule().fill(Color.blue.opacity(0.15))
-                                )
-                                .foregroundColor(.blue)
-                                .overlay(
-                                    Capsule().stroke(Color.blue, lineWidth: 1)
-                                )
-                        }
-                    }
-                }
+            List(menuItems){ item in
+                MenuItemView(item: item)
             }
+            
+//            List {
+//                Text("We currently offer \(menuItems.count) menu items")
+//                    .italic()
+//                    .frame(maxWidth: .infinity, alignment: .center)
+//                
+//                ForEach(menuItems.sorted(by: {$0.key > $1.key}), id: \.key){(name, price) in
+//                    HStack{
+//                        VStack(alignment: .leading){
+//                            Text(name)
+//                                .font(.headline)
+//                            
+//                            Text("$ \(price, specifier: "%.2f")")
+//                                .foregroundColor(.secondary)
+//                        }
+//                        
+//                        Spacer()
+//                        
+//                        if price < 7.0 {
+//                            Text("Value")
+//                                .font(.caption.weight(.semibold))
+//                                .padding(.horizontal, 10)
+//                                .padding(.vertical, 4)
+//                                .background(
+//                                    Capsule().fill(Color.green.opacity(0.15))
+//                                )
+//                                .foregroundColor(.green)
+//                                .overlay(
+//                                    Capsule().stroke(Color.green, lineWidth: 1)
+//                                )
+//                        } else {
+//                            Text("Premium")
+//                                .font(.caption.weight(.semibold))
+//                                .padding(.horizontal, 10)
+//                                .padding(.vertical, 4)
+//                                .background(
+//                                    Capsule().fill(Color.blue.opacity(0.15))
+//                                )
+//                                .foregroundColor(.blue)
+//                                .overlay(
+//                                    Capsule().stroke(Color.blue, lineWidth: 1)
+//                                )
+//                        }
+//                    }
+//                }
+//            }
         }
     }
 }
