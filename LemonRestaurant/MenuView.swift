@@ -20,6 +20,7 @@ struct MenuView: View {
     
     @State private var showMessage:Bool = false
     @State private var showThankYouMessage:Bool = false
+    @State private var showDesserts: Bool = false
     
     let menuItems = [
         MenuItem(
@@ -74,7 +75,7 @@ struct MenuView: View {
             // VStack
             VStack(spacing: 20){
                 Toggle("Show an special text", isOn: $showMessage)
-                    .padding()
+                    .padding(.horizontal)
                 
                 if showMessage {
                     Text("You unlocked a surprise!")
@@ -82,14 +83,29 @@ struct MenuView: View {
                         .foregroundColor(.green)
                 }
                 
-                Toggle("Show Thank You Message", isOn: $showThankYouMessage)
-                    .padding()
+//                Toggle("Show Thank You Message", isOn: $showThankYouMessage)
+//                    .padding()
+//                
+//                if showThankYouMessage {
+//                    Text("Thanks for visiting Little Lemon!")
+//                        .font(.title3)
+//                        .italic()
+//                        .foregroundColor(.blue)
+//                }
                 
-                if showThankYouMessage {
-                    Text("Thanks for visiting Little Lemon!")
-                        .font(.title3)
-                        .italic()
-                        .foregroundColor(.blue)
+                Button("View Desserts") {
+                    showDesserts.toggle()
+                }
+                .font(.title3)
+                .padding(.horizontal, 20)
+                .padding(.vertical, 5)
+                .background(
+                    Capsule().fill(Color.green.opacity(0.15))
+                )
+                .foregroundColor(.green)
+                .padding()
+                .sheet(isPresented: $showDesserts) {
+                    DessertView()
                 }
             }
             
