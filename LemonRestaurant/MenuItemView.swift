@@ -26,29 +26,16 @@ struct MenuItemView: View {
             Spacer()
             
             if item.price < 7.0 {
-                Text("Value")
-                    .font(.caption.weight(.semibold))
-                    .padding(.horizontal, 10)
-                    .padding(.vertical, 4)
-                    .background(
-                        Capsule().fill(Color.green.opacity(0.15))
-                    )
+                Text("$\(item.price, specifier: "%.2f")")
+                    .font(.title3.weight(.semibold))
                     .foregroundColor(.green)
-                    .overlay(
-                        Capsule().stroke(Color.green, lineWidth: 1)
-                    )
             } else {
+                Image(systemName: "star.fill")
+                    .foregroundColor(.yellow)
+                
                 Text("Premium")
-                    .font(.caption.weight(.semibold))
-                    .padding(.horizontal, 10)
-                    .padding(.vertical, 4)
-                    .background(
-                        Capsule().fill(Color.blue.opacity(0.15))
-                    )
-                    .foregroundColor(.blue)
-                    .overlay(
-                        Capsule().stroke(Color.blue, lineWidth: 1)
-                    )
+                    .font(.title3.weight(.semibold))
+                    .foregroundColor(.yellow)
             }
         }
     }
