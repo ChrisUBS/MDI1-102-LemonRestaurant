@@ -25,7 +25,7 @@ struct MenuItemView: View {
             
             Spacer()
             
-            if item.price < 7.0 {
+            if item.price < 10.0 {
                 Text("$\(item.price, specifier: "%.2f")")
                     .font(.title3.weight(.semibold))
                     .foregroundColor(.green)
