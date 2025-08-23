@@ -28,8 +28,11 @@ struct CustomerSummaryView: View {
             
             if customer.isLoyaltyMember {
                 HStack{
-                    Image(systemName: "star")
+                    Image(systemName: "star.fill")
+                        .foregroundColor(.yellow)
                     Text("Loyalty Member")
+                        .foregroundColor(.green)
+                        .bold()
                 }
             }
             
