@@ -13,13 +13,13 @@ struct MenuView: View {
     @State private var showDesserts: Bool = false
     
     let menuItems = [
-        MenuItem(name: "Pizza",         description: "Cheesy and hot",                                price: 9.0),
-        MenuItem(name: "Steak",         description: "Grilled to perfection",                         price: 10.0),
-        MenuItem(name: "Past",          description: "Spaghetti",                                      price: 8.0),
-        MenuItem(name: "Caesar Salad",  description: "Romaine lettuce with creamy Caesar dressing",    price: 10.99),
-        MenuItem(name: "Burger",        description: "Spicy chicken",                                  price: 11.99),
-        MenuItem(name: "Tacos",         description: "3 adobada tacos",                                price: 9.99),
-        MenuItem(name: "Hot Dog",       description: "Long sausage",                                   price: 4.99)
+        MenuItem(name: "Pizza", description: "Cheesy and hot", price: 9.0),
+        MenuItem(name: "Steak", description: "Grilled to perfection", price: 10.0),
+        MenuItem(name: "Past", description: "Spaghetti", price: 8.0),
+        MenuItem(name: "Caesar Salad",  description: "Romaine lettuce with creamy Caesar dressing", price: 10.99),
+        MenuItem(name: "Burger", description: "Spicy chicken", price: 11.99),
+        MenuItem(name: "Tacos", description: "3 adobada tacos", price: 9.99),
+        MenuItem(name: "Hot Dog", description: "Long sausage", price: 4.99)
     ]
     
     var visibleItems: [MenuItem] {
@@ -37,6 +37,11 @@ struct MenuView: View {
         visibleItems.reduce(0) { $0 + $1.price }
     }
     
+    var averagePrice: Double {
+        visibleItems.reduce(0) { $0 + $1.price } / Double(visibleItems.count)
+        
+    }
+    
     var body: some View {
         VStack {
             HStack {
@@ -48,6 +53,10 @@ struct MenuView: View {
                     .font(.largeTitle)
             }
             .padding()
+            
+            Text("Average price: $\(averagePrice, specifier: "%.2f")")
+                .font(.title3)
+                .foregroundColor(.gray)
             
             // Controles y extra
             VStack(spacing: 16) {
